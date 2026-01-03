@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:linear-gradient(135deg,#0061ff,#00ddeb);
+  min-height:100vh;
+}
+
+.page{
+  width:100%;
+}
+
+.header{
+  color:white;
+  font-size:24px;
+  padding:15px;
+  font-weight:bold;
+}
+
+/* FULL SCREEN 3 COLUMN GRID */
+.layout{
+  width:100%;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:15px;
+  padding:15px;
+}
+
+/* WHITE CARD SECTION */
+.section{
+  background:white;
+  padding:15px;
+  border-radius:15px;
+  min-height:85vh;
+}
+
+/* PRODUCTS GRID */
+.productGrid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+
+.card{
+  background:#f3f3f3;
+  border-radius:12px;
+  padding:10px;
+  text-align:center;
+}
+
+.card img{
+  width:100%;
+  height:130px;
+  object-fit:contain;
+  border-radius:10px;
+}
+
+/* BUTTONS */
+button{
+  border:none;
+  padding:8px 15px;
+  border-radius:20px;
+  background:#ff0066;
+  color:white;
+  cursor:pointer;
+}
+
+.green{
+  background:linear-gradient(45deg,#00b09b,#96c93d);
+  width:100%;
+  margin-top:10px;
+}
+
+.dark{
+  background:black;
+  width:100%;
+  margin-top:10px;
+  color:white;
+}
+
+/* BILL STYLE */
+.bill{
+  background:#fffde7;
+  border-radius:15px;
+  padding:12px;
+  min-height:75vh;
+  font-family:monospace;
+}
+
+/* ADS */
+.adGrid{
+  display:grid;
+  gap:10px;
+}
+
+.ad{
+  background:linear-gradient(45deg,#ff512f,#f09819);
+  color:white;
+  padding:20px;
+  font-weight:bold;
+  text-align:center;
+  border-radius:12px;
+}
